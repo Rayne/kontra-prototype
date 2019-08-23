@@ -154,7 +154,11 @@ PP------>DD   S
    
    - `bool sprite.looksLeft`
 
+   - `bool sprite.looksRight`
+
    - `bool sprite.movesLeft`
+
+   - `bool sprite.movesRight`
 
 1. Move the sprite only on the Y axis.
 
@@ -172,6 +176,8 @@ PP------>DD   S
 
    Calling this method will also update the following properties:
    
+   - `bool sprite.isOnGround`
+
    - `bool sprite.movesUp`
 
    - `bool sprite.movesDown`
