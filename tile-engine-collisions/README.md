@@ -18,6 +18,9 @@ The provided code is specialized for my own use case:
 
 - Solid tiles have to be explicitly marked as solid, see [Usage](#usage)
 
+- Sprite anchors are ignored.
+  `TileEngineHelper` assumes that the top left corner is the origin
+
 - Although a jump and run video is shown,
   the code is generic enough to be used for other genres,
   e.g. top-down RPGs, too
